@@ -1,0 +1,39 @@
+#dubai {
+    min-height: 100vh;
+    width: 100vw;
+    background-image: url(../Images/dubai_home.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.distinations-container{
+  padding: 5%;
+  h1{
+    margin: 0 0 20px 25vw ;
+  }
+}
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+}
+
+
+.box {
+    background-color: #444;
+    padding: 3px;
+    margin: 20px;
+}
+
+.box:hover {
+  -webkit-transform: rotate(-7deg);
+  -moz-transform: rotate(-7deg);
+  -o-transform: rotate(-7deg);
+  transform: rotate(-7deg);
+}
+
+.box > img {
+  width: 100%;
+  height: auto;
+}
